@@ -1,0 +1,88 @@
+//META{"name":"ArtTheme","description":"Jim","author":"JimmyX#0001","version":"v2.020"}*//{}
+
+/* Theme "Discord Better Theme v5.01" */
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/scsl.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/status.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css);
+
+:root {
+    /* Edit this to change your background */
+    --background-image: url(https://www.itl.cat/pngfile/big/5-51276_wallpapers-macbook-cool-fantasy-landscape-backgrounds.jpg); /* format is url(IMAGE URL HERE) */
+    /* Edit this to change your friends icon picture, picture  */
+    --friends-icon: url(https://www.itl.cat/pngfile/big/5-51276_wallpapers-macbook-cool-fantasy-landscape-backgrounds.jpg); /* format is url(IMAGE URL HERE) */
+    /* Edit this to change your friends icon picture, position  */
+    --friends-icon-position: center; /* default: center center */
+    /* Edit this to change your friends icon picture, zoom  */
+    --friends-icon-zoom: 100%; /* default: 100% */
+    /* Change the main color */
+    --main-color: rgb(0, 255, 255); /* default: rgb(67, 181, 129); */
+    /* Chande global transparency */
+    --main-transparency: rgba(0, 0, 0, 0.4); /* default: rgba(0, 0, 0, 0.8); */ 
+
+    /* Change the unread server animation. Replace it with "none" in order to remove any animations */
+    --unread-server-animation: rainbow;
+    /* Change background color when you hover members or friends */
+    --hover-list-bg-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15) */
+    /* Change the tiny border lines color */
+    --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
+    /* Change the scroll bar color appearence */
+    --scroll-bar-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15);*/
+
+    /* Change chat messages font size, you can use any unit: px, em, rem, %, etc. */
+    --font-size: 16px; /* default: 16px */
+    /* Edit this to change the color of a selected text or voice join */
+    --selected-text-voice-color: #f6f6f7; /* default: #f6f6f7 */
+    /* Edit this to change the color when you hover over a text channel */
+    --text-hover-color: #6600cc; /* default: #b9bbbe */
+    /* Edit this to change the color when you hover over a voice channel */
+    --voice-hover-color: #cc00ff; /* default: #f6f6f7 */
+    /* Edit this to change the color of an unread text channel color */
+    --unread-text-color: #dcddde; /* default: #dcddde */
+    
+   /*Theme 2.0*/ 
+   /*Author:JimmyX#0001*/
+   
+   	/* background URL */
+	--background-image: url(https://www.itl.cat/pngfile/big/5-51276_wallpapers-macbook-cool-fantasy-landscape-backgrounds.jpg) center/cover no-repeat;
+	/* Guild and Top bar transparency */
+	--transparency-1: linear-gradient(to left, rgba(0,0,0,0.100), rgba(0,0,0,0.95));
+	/* transparency for channels and private channels */
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.85));
+	/* chat and top area and other secondary pages */
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.85));
+	/* member list */
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.85));
+	/* transparecy with gradient of top bar */
+	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25),rgba(0,0,0,0.65), rgba(0,0,0,0.62), rgba(0,0,0,0.60),rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+	
+	/* Background color of markdown box */
+	--markdown-background-color: rgba(144,0,255, 0.40);
+	/* Border of markdown text */
+	--markdown-border-color: rgba(144,0,255, 0.45);
+	/*Friends icon*/
+	--friends-icon: url(https://www.itl.cat/pngfile/big/5-51276_wallpapers-macbook-cool-fantasy-landscape-backgrounds.jpg); 
+    /* Edit this to change your friends icon picture, position  */
+    --friends-icon-position: center center; /* default: center center */
+    /* Edit this to change your friends icon picture, zoom  */
+    --friends-icon-zoom: 100%; /* default: 100% */
+	 /* Write "transparent" in order to make the options sections with the same look as the theme  */
+    --options-transparency: #cc0000; /* default: #2f3136 */
+	/* accent color, applies to buttons */
+	--accent-color: rgba(144,0,255, 0.4);
+	/* Change background color when you hover members or friends */
+    --hover-list-bg-color: rgba(144,0,255, .15); /* default: rgba(255,255,255, .15) */
+	/* accent color for the border */
+	--accent-color-border: rgba(0,0,0,0.1);
+	--accent-color-border: rgba(144,0,255,0.60);
+	/* accent color hover state */
+	--accent-color-hover: rgba(144,0,255, 0.10);
+	/* acent color border hover state */
+	--accent-color-border-hover: rgba(0,0,0, 0.20);
+	/* Checker ON/OFF */
+	--checker-on: rgba(144,0,255, 0.15);
+	--checker-off: rgba(144,0,255, 0.30);
+	/* Sub Menu's background color and hover */
+	--submenu-color: rgba(144,0,255,0.01);
+	--submenu-hover: rgba(144,0,255,0.10);
+}
+
